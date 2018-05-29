@@ -1,5 +1,5 @@
 </br>
- 						MultiThreadedServer
+ 						      MultiThreadedServer
 </br>
 
 </br>
@@ -12,7 +12,6 @@ Servers are supposed to run for a long time without stopping—therefore, they m
 
 Answer:
 
-</br>
 
 Observations from TCPEchoServer
 
