@@ -1,9 +1,9 @@
 
- 						                    MultiThreadedServer
+ 						MultiThreadedServer
 <br>
 
 
-                                            Problem Statement:
+ Problem Statement:
 
 </br>
 
@@ -11,7 +11,9 @@ Servers are supposed to run for a long time without stopping—therefore, they m
 
 Answer:
 
-						                    Observations from TCPEchoServer
+
+Observations from TCPEchoServer
+
 
 TCPEchoServer could not handle multiple requests at the same time because it does not have multithreading Implemented in its code. So it can serve only single Request at a time.If a client connects while another is already being serviced, the server will not echo the new client’s data until it has finished with the current client, although the new client will be able to send data as soon as it connects. This type of server is known as an  iterative server .
 Below are the some of ways that one client can give poor service to other clients as well as possible solutions.
@@ -39,7 +41,7 @@ clientSocket.close();
 
 
 
-                                                   Idle Bad client
+Idle Bad client
 
 
 Let’s take a case where client is connected to the server but not having any sort of
@@ -67,7 +69,8 @@ You might be wondering how if closed how it will handle This step is written in 
 Note :
 started server with port 10008 so connecting Both bad clients to that port. Execution Instructions:
 
-                     								To test flooding prevention
+
+To test flooding prevention
 
 
 Compile TCPEchoServer javac TCPEchoServer.java
@@ -81,7 +84,7 @@ java TCPEchoServer
 ![alt text](https://github.com/RepakaRamateja/MultiThreadedServer/blob/master/images/1.png)
 
 
-                            									Compile 
+Compile 
 
 
 TCPEchoClient1 
@@ -89,11 +92,13 @@ TCPEchoClient1
 javac TCPEchoClient1.java
 
 
-                             									Run
+Run
 
 java TCPEchoClient1
 
-                           								Output screenshot:
+
+Output screenshot:
+
 
 Client side
 
@@ -110,7 +115,9 @@ Client side
 
   
 
-                           								To Test Idle client 
+To Test Idle client 
+
+
 
 Compile TCPEchoClient 
 
