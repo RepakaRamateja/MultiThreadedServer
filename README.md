@@ -65,42 +65,70 @@ Run
 
 java TCPEchoServer
 
+</br>
 
-
+![alt text](https://github.com/RepakaRamateja/MultiThreadedServer/blob/master/images/1.png)
 
 
 
 
 Compile 
-TCPEchoClient1 javac TCPEchoClient1.java
+
+TCPEchoClient1 
+
+javac TCPEchoClient1.java
 
 Run
 
 java TCPEchoClient1
 
-Output screenshot Client side
+Output screenshot:
+
+ Client side
+
+</br>
+
+![alt text](https://github.com/RepakaRamateja/MultiThreadedServer/blob/master/images/2.png)
+
+</br>
+
+![alt text](https://github.com/RepakaRamateja/MultiThreadedServer/blob/master/images/3.png)
 
 
-
-
-
-
-
+![alt text](https://github.com/RepakaRamateja/MultiThreadedServer/blob/master/images/4.png)
 
 
 2) To Test Idle client 
 
 Compile TCPEchoClient 
 
+
 javac TCPEchoClient.java
 
 Run
+
 java TCPEchoClient 
 
 After connecting
 
+</br>
+
+![alt text](https://github.com/RepakaRamateja/MultiThreadedServer/blob/master/images/5.png)
+
+
 Entered some input and receive response from server
 
+</br>
+
+![alt text](https://github.com/RepakaRamateja/MultiThreadedServer/blob/master/images/6.png)
+
+</br>
+
+![alt text](https://github.com/RepakaRamateja/MultiThreadedServer/blob/master/images/7.png)
+
+</br>
+
+![alt text](https://github.com/RepakaRamateja/MultiThreadedServer/blob/master/images/8.png)
 
 
 Note:
