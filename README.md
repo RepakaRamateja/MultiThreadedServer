@@ -33,10 +33,16 @@ You can change the no of requests to any number depending on that socket connect
 
 
 int i=0; // variable to count the requests
-while ((inputLine = in.readLine()) != null) {
+
+while ((inputLine = in.readLine()) != null) 
+{
+
 i++;
-if(i==20) // condition to close the socket connection when any one try to flood with messages more than 20
-break; }
+
+if(i==20)  // condition to close the socket connection when any one try to flood with messages more than 20
+break;
+}
+
 clientSocket.close();
 
 
