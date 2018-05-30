@@ -40,6 +40,7 @@ while ((inputLine = in.readLine()) != null)
 i++;
 
 if(i==20)  // condition to close the socket connection when any one try to flood with messages more than 20
+
 break;
 
 }
