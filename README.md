@@ -23,7 +23,7 @@ Below are the some of ways that one client can give poor service to other client
 
 Server handles all the requests sent by the bad client after successful socket connection. So if bad client sends flood of requests server will be handling all the requests sent by this client which leads to resource exhaustion and finally unavailability of server. Other clients cannot communicate with server due to this denial of service attack performed by bad client.This is one of the way one client can provides poor service to the other clients.
 
-					                       Flooding Solution: Implement  Multithreading
+					        Flooding Solution: Implement  Multithreading
 
 New thread is spawned to handle each client connection. This approach is called Thread per client.multithreading at the server side leads to handle multiple requests at the same time. So clients no need to wait to send data to server.By the above approach server serves multiple clients but let’s take a case where client try to Flood the server with echo’s then in order to prevent that flooding implemented below logic in server.
 
